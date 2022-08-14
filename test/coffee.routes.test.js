@@ -84,7 +84,7 @@ describe('Routes', () => {
       })
     })
 
-    xdescribe('GET /coffee/:coffeeId', () => {
+    describe('GET /coffee/:coffeeId', () => {
       it('gets the coffee with the specified id', async () => {
         await agent
           .get(`/api/coffee/${puppaccino.id}`)
