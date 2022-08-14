@@ -15,7 +15,8 @@ const Coffee = db.define('coffee', {
     allowNull: false,
     validate: {
       notEmpty: true
-    }
+    },
+    defaultValue: []
   },
 })
 
